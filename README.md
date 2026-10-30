@@ -20,6 +20,8 @@ Select **Connect API / API 연결** and enter your newly issued service key to r
 
 Korea Tourism Organization, English Tourism Information Service (GW), through the [Public Data Portal](https://www.data.go.kr/data/15101753/openapi.do).
 
+Photos: when the English API returns a place without an image, the app uses a freely licensed photo from [Wikimedia Commons](https://commons.wikimedia.org/) (credited under each photo with author and license), or looks up the place's photo in Korea Tourism Organization's Korean Tourism Information Service (KorService2) with the same service key. To use the KorService2 lookup, apply for that API on the Public Data Portal as well.
+
 Tourism information is supplied in English by the API; the Korean interface translates the app controls and built-in preview examples.
 
 ## License
